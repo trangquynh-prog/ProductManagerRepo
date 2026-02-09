@@ -13,5 +13,9 @@ public class ProductManagerApp {
 public static void main(String[] args) {
         System.out.println("Hello Product Manager");
     }
+
+public double calculateDiscount(double price, double percentOff) {
+        return price - (price * percentOff / 100.0);
+    }
     
 }
